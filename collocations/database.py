@@ -22,6 +22,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 1,
                 "explanation": "These are the most common words that follow 'make a' in academic writing.",
+                "hint_sentence": "The government's new initiative will _______ a significant difference in addressing climate change.",
                 "examples": {
                     "Technology": "The development of AI will make a significant difference in how we work.",
                     "Education": "Students must make a decision about their future career paths.",
@@ -38,6 +39,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 1,
                 "explanation": "Common objects for the verb 'take' in academic contexts.",
+                "hint_sentence": "Organizations must _______ responsibility for implementing sustainable practices in their operations.",
                 "examples": {
                     "Technology": "Companies must take responsibility for data privacy.",
                     "Education": "Teachers take an active role in student development.",
@@ -54,6 +56,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 1,
                 "explanation": "Words that commonly follow 'raise' in essays.",
+                "hint_sentence": "Educational institutions should _______ awareness about the importance of critical thinking in modern society.",
                 "examples": {
                     "Technology": "Social media helps raise awareness about important issues.",
                     "Education": "Teachers raise questions to encourage critical thinking.",
@@ -70,6 +73,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 1,
                 "explanation": "Common nouns that follow 'have an' in academic writing.",
+                "hint_sentence": "Technological advancements have an _______ on the way societies develop economically and culturally.",
                 "examples": {
                     "Technology": "Technology has an impact on education systems globally.",
                     "Environment": "Pollution has an effect on animal populations.",
@@ -86,6 +90,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 1,
                 "explanation": "Different roles that are commonly discussed in essays.",
+                "hint_sentence": "Artificial intelligence plays a _______ in shaping the future of employment and workforce development.",
                 "examples": {
                     "Technology": "Artificial intelligence plays a crucial role in modern industry.",
                     "Education": "Teachers play a key role in student development.",
@@ -102,6 +107,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Consequences that commonly follow 'lead to'.",
+                "hint_sentence": "Unregulated industrial expansion can _______ to irreversible environmental degradation and ecological imbalance.",
                 "examples": {
                     "Technology": "Rapid innovation can lead to unforeseen problems.",
                     "Education": "Quality education leads to improvement in society.",
@@ -118,6 +124,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Objects commonly provided in academic contexts.",
+                "hint_sentence": "Recent empirical studies _______ compelling evidence that digital literacy is essential for contemporary education.",
                 "examples": {
                     "Technology": "Research provides evidence of climate change.",
                     "Education": "Schools provide opportunities for skill development.",
@@ -134,6 +141,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Common outcomes that can be achieved.",
+                "hint_sentence": "Sustainable development requires nations to _______ equilibrium between economic prosperity and environmental protection.",
                 "examples": {
                     "Education": "Students achieve success through hard work and dedication.",
                     "Technology": "Companies achieve goals through innovation.",
@@ -150,6 +158,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Outcomes that result from contributions.",
+                "hint_sentence": "Investment in renewable energy technology significantly _______ to both economic expansion and climate change mitigation.",
                 "examples": {
                     "Technology": "Innovation contributes to economic growth.",
                     "Education": "Quality teaching contributes to student success.",
@@ -166,6 +175,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Common areas of focus in academic discourse.",
+                "hint_sentence": "Policymakers should _______ fostering critical thinking skills to prepare students for increasingly complex global challenges.",
                 "examples": {
                     "Education": "Schools should focus on developing critical thinking skills.",
                     "Technology": "Tech companies focus on sustainability initiatives.",
@@ -182,6 +192,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Common subjects that are addressed in essays.",
+                "hint_sentence": "Governments must comprehensively _______ the fundamental challenges of inequality and inadequate access to quality healthcare.",
                 "examples": {
                     "Environment": "The government must address climate change challenges.",
                     "Society": "Policies address social inequality issues.",
@@ -198,6 +209,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Qualities commonly demonstrated in writing.",
+                "hint_sentence": "Successful leaders consistently _______ sophisticated understanding of complex socioeconomic systems and their interdependencies.",
                 "examples": {
                     "Education": "Students demonstrate competence through examinations.",
                     "Technology": "Engineers demonstrate skills in problem-solving.",
@@ -214,6 +226,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 2,
                 "explanation": "Nouns that commonly follow 'significant' in academic writing.",
+                "hint_sentence": "The widespread adoption of artificial intelligence has exerted a _______ impact on labour markets and employment patterns.",
                 "examples": {
                     "Technology": "The internet has had a significant impact on society.",
                     "Education": "Teachers have a significant influence on student development.",
@@ -230,6 +243,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 3,
                 "explanation": "Strong nouns paired with 'profound' for emphasis.",
+                "hint_sentence": "Educational reform initiatives have demonstrated a _______ effect on intergenerational mobility and social equity outcomes.",
                 "examples": {
                     "Technology": "AI will have a profound effect on the future of work.",
                     "Society": "Education has a profound influence on individual lives.",
@@ -246,6 +260,7 @@ class CollocationDatabase:
                 "category": "adverbial",
                 "difficulty": 2,
                 "explanation": "Verbs that often combine with 'rapidly'.",
+                "hint_sentence": "Global urbanization is _______ accelerating, necessitating innovative infrastructure solutions and sustainable urban planning.",
                 "examples": {
                     "Technology": "Technology is rapidly changing society.",
                     "Environment": "Climate change is rapidly accelerating.",
@@ -262,6 +277,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 2,
                 "explanation": "Key terms in discussions of sustainability.",
+                "hint_sentence": "The transition to _______ energy sources is indispensable for meeting international climate targets and ensuring prosperity.",
                 "examples": {
                     "Environment": "Sustainable development is crucial for the planet.",
                     "Society": "We need sustainable solutions to global problems.",
@@ -278,6 +294,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 2,
                 "explanation": "Nouns commonly modified by 'critical'.",
+                "hint_sentence": "Cultivating _______ analysis among students is fundamental to developing informed citizens capable of evaluating complex information.",
                 "examples": {
                     "Education": "Critical thinking is essential for academic success.",
                     "Society": "Critical skills are needed in the modern workforce.",
@@ -294,6 +311,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 3,
                 "explanation": "Important concepts described as 'fundamental'.",
+                "hint_sentence": "Access to quality education represents a _______ right that enables individuals to participate fully in democratic societies.",
                 "examples": {
                     "Society": "Education is a fundamental right for all.",
                     "Health": "Health is a fundamental human right.",
@@ -310,6 +328,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 3,
                 "explanation": "Positive outcomes described as 'remarkable'.",
+                "hint_sentence": "Over the past decade, scientific research has yielded _______ advances in understanding genomic mechanisms and therapeutic interventions.",
                 "examples": {
                     "Technology": "Technology has made remarkable progress.",
                     "Education": "Students showed remarkable achievement.",
@@ -326,6 +345,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 2,
                 "explanation": "Phenomena that become widespread.",
+                "hint_sentence": "The _______ implementation of remote work technologies has fundamentally transformed organizational structures and labour dynamics globally.",
                 "examples": {
                     "Technology": "Widespread adoption of smartphones has transformed society.",
                     "Environment": "Widespread concern about climate change is growing.",
@@ -342,6 +362,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 3,
                 "explanation": "Systemic methods and analyses.",
+                "hint_sentence": "Addressing the multifaceted crisis of climate change requires a _______ methodology integrating scientific evidence and policy innovation.",
                 "examples": {
                     "Education": "A comprehensive approach to learning is necessary.",
                     "Environment": "Comprehensive environmental protection requires action.",
@@ -358,6 +379,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 2,
                 "explanation": "Large-scale concepts and challenges.",
+                "hint_sentence": "Biotechnology and genetic engineering present _______ opportunities for revolutionizing agriculture and pharmaceutical development.",
                 "examples": {
                     "Technology": "AI has enormous potential for innovation.",
                     "Environment": "Climate change poses an enormous challenge.",
@@ -374,6 +396,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Difficulties that can be overcome.",
+                "hint_sentence": "Developing nations must _______ systemic infrastructure limitations to achieve equitable economic development and technological advancement.",
                 "examples": {
                     "Society": "Society must overcome social divisions.",
                     "Education": "Students overcome learning challenges through practice.",
@@ -390,6 +413,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Things that are implemented in practice.",
+                "hint_sentence": "Successfully transitioning to renewable energy requires governments to _______ cohesive long-term strategies with substantial financial investment.",
                 "examples": {
                     "Society": "Governments implement policies to improve society.",
                     "Education": "Schools implement new teaching strategies.",
@@ -406,6 +430,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 3,
                 "explanation": "Aspects that are commonly evaluated.",
+                "hint_sentence": "Researchers must rigorously _______ the long-term implications of emerging technologies before widespread implementation in society.",
                 "examples": {
                     "Education": "Teachers evaluate student performance regularly.",
                     "Technology": "Companies evaluate the effectiveness of new systems.",
@@ -422,6 +447,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 2,
                 "explanation": "Things that can be enhanced or improved.",
+                "hint_sentence": "Modern pedagogical frameworks increasingly _______ student experiences through personalized learning pathways and interactive technologies.",
                 "examples": {
                     "Education": "Technology enhances the learning experience.",
                     "Health": "Exercise enhances physical well-being.",
@@ -438,6 +464,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 3,
                 "explanation": "Processes and interactions that are facilitated.",
+                "hint_sentence": "Digital platforms _______ unprecedented opportunities for knowledge exchange and collaborative research among geographically dispersed academic communities.",
                 "examples": {
                     "Technology": "The internet facilitates global communication.",
                     "Education": "Teachers facilitate student learning and discovery.",
@@ -454,6 +481,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 3,
                 "explanation": "Significant things that are substantial.",
+                "hint_sentence": "Combating poverty requires governments to allocate _______ resources toward education, healthcare, and economic opportunity programmes.",
                 "examples": {
                     "Technology": "There is substantial evidence of AI's potential.",
                     "Research": "Substantial research supports this conclusion.",
@@ -470,6 +498,7 @@ class CollocationDatabase:
                 "category": "adjectival",
                 "difficulty": 3,
                 "explanation": "Unavoidable outcomes and processes.",
+                "hint_sentence": "The demographic transition toward ageing populations represents an _______ phenomenon requiring comprehensive adjustments to social policy and healthcare systems.",
                 "examples": {
                     "Technology": "Technological change is inevitable.",
                     "Society": "Social evolution is an inevitable process.",
@@ -486,6 +515,7 @@ class CollocationDatabase:
                 "category": "verbal",
                 "difficulty": 3,
                 "explanation": "Systems and processes that are optimized.",
+                "hint_sentence": "Contemporary organizations employ sophisticated data analytics to _______ operational efficiency and maximize competitive advantage in dynamic markets.",
                 "examples": {
                     "Technology": "Companies optimize efficiency through automation.",
                     "Education": "Schools optimize learning outcomes.",
