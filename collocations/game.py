@@ -85,6 +85,7 @@ class CollocationGame:
         guessed_correct = set()
         attempts = 0
         max_attempts = 7
+        hint_used = False
         
         while len(guessed_correct) < len(correct_answers) and attempts < max_attempts:
             remaining = len(correct_answers) - len(guessed_correct)
@@ -100,6 +101,7 @@ class CollocationGame:
             
             if guess == 'hint':
                 self._show_hint(collocation, guessed_correct)
+                hint_used = True
                 continue
             
             if guess in correct_answers:
@@ -133,11 +135,10 @@ class CollocationGame:
         self._show_collocation_details(collocation)
     
     def _show_hint(self, collocation, already_guessed):
-        """Provide a hint to the player"""
-        remaining = set(collocation["correct_answers"]) - already_guessed
-        if remaining:
-            hint = list(remaining)[0]
-            print(f"💡 Hint: The answer starts with '{hint[0].upper()}' and has {len(hint)} letters")
+        """Provide a hint to the player using Band 8-9 academic sentence"""
+        print(f"\n💡 HINT - Fill in the blank with Band 8-9 academic writing:")
+        print(f"   \"{collocation['hint_sentence']}\"")
+        print(f"\n   (The answer is one of: {', '.join(collocation['correct_answers'])})\n")
     
     def _show_collocation_details(self, collocation):
         """Show detailed information about a collocation"""
@@ -234,6 +235,8 @@ class CollocationGame:
             print(f"Difficulty: {'⭐' * coll['difficulty']}")
             print(f"Category: {coll['category']}")
             print(f"\nExplanation: {coll['explanation']}")
+            print(f"\n🎓 Band 8-9 Hint Sentence:")
+            print(f"   \"{coll['hint_sentence']}\"")
             print(f"\nExamples:")
             for topic, example in coll['examples'].items():
                 print(f"  • {topic}: {example}")
