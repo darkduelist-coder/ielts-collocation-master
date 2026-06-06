@@ -1,0 +1,3 @@
+# IELTS Collocation Master - No external dependencies needed!
+# This program uses only Python standard library
+# Python 3.8+ required
